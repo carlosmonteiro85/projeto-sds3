@@ -1,8 +1,8 @@
-package com.dev.superior.dsvendas.dto;
+package com.devsuperior.dsvendas.dto;
 
 import java.io.Serializable;
 
-import com.dev.superior.dsvendas.entities.Seller;
+import com.devsuperior.dsvendas.entities.Seller;
 
 //Boa pratica para garantior que o objeto sera convertido para bite
 public class SellerDTO implements Serializable {

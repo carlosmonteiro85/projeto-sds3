@@ -1,9 +1,9 @@
-package com.dev.superior.dsvendas.dto;
+package com.devsuperior.dsvendas.dto;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 
-import com.dev.superior.dsvendas.entities.Sale;
+import com.devsuperior.dsvendas.entities.Sale;
 
 //Boa pratica para garantior que o objeto sera convertido para bite
 public class SaleDTO implements Serializable {
