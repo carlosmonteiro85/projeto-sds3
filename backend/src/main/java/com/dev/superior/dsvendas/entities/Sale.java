@@ -34,7 +34,7 @@ public class Sale {
 		this.visited = visited;
 		this.deals = deals;
 		this.amount = amount;
-		this.date = date;
+		this.setDate(date);
 		this.seller = seller;
 	}
 
@@ -70,19 +70,19 @@ public class Sale {
 		this.amount = amount;
 	}
 
-	public LocalDate getData() {
-		return date;
-	}
-
-	public void setData(LocalDate data) {
-		this.date = data;
-	}
-
 	public Seller getSeller() {
 		return seller;
 	}
 
 	public void setSeller(Seller seller) {
 		this.seller = seller;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
 	}
 }
